@@ -1,0 +1,225 @@
+body{
+    margin: 0px ;
+    background: #fff;
+    padding: 0;
+    height: 100%;
+    font-family:arial,sans-serif
+    }
+
+    a{
+     text-decoration: none;
+        color: black;
+        
+    }
+    header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    padding: 5px;
+    } 
+    
+    .navArriba{
+        width: 300px;
+    }
+    
+    .btnarriba{
+    width: 250px;
+    display: flex;
+    list-style: none;
+    justify-content:space-around;
+    }
+    .btnarriba a{
+        margin-right: 5px;
+        text-decoration:none;
+        font-size: 12px;
+        font-family: Arial,sans-serif;
+    }
+    .btnarriba a:hover{
+        text-decoration:underline;
+    }
+    .divgeneral{
+        margin-top: 100px;
+        text-align: center;
+    }
+    
+    .sectiongeneral{
+    height: 50vh;
+    }
+    .sectionLogo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .logo{
+    display: flex;
+    justify-content: center;
+    width: 272px;
+    }
+    
+    .sectionbuscador{
+        width: 530px;
+        border-radius: 100px;
+        justify-content: center;
+        border: 1px solid black;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+    }
+    input{
+        width: 450px;
+        height: 30px;
+        border: none;
+        outline: none;    
+    }
+    .sectionbuscador:hover{
+    box-shadow: 0 1px 6px 0 grey;
+    }
+    .sectionbuscador {
+        background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcqtGRJZItzFrenUHalZRzo8DsDk5Ocqt-390VEXlAlnSIF1MWYWy5qTjrjn-7wFnzmlQ&usqp=CAU');
+        background-repeat: no-repeat;
+        background-size: center;
+    }
+    
+    .botones{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .btnlogo{
+    
+    display: inline-block;
+    background:#f8f9fa;
+    list-style: none;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    padding: 0px 12px;
+    border: none;
+    margin-top: 45px;
+    margin-left: 5px;
+    margin-right: 16px;
+    height: 36px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 0 15px;
+    }
+
+    .btnlogo:hover{
+            background: gainsboro;
+            color:black;
+            
+    }
+    
+    /*section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50vh;
+        *background: lightblue;
+        
+    }*/
+    
+    /*.navlog{
+    width: 100%;
+    background: grey;
+    }
+    
+    .btnlogo:hover{
+            background: gainsboro;
+            color:black;
+            
+    }
+    .btnlogo{
+    width: 130px;
+    display: inline-block;
+    list-style: none;
+    background: red;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    color: red;
+    padding: 0px 12px;
+    border-radius: 4px;
+    border: solid 1px #f8f9fa;
+    margin-right: 5px;
+    margin-top: 20px;
+    margin-left: -2px;
+    height: 40px;
+    text-align: center;
+    }
+    */
+    .texto{
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    text-align: center;
+    color: gray;
+    }
+
+    footer{
+    background: #f2f2f2;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 140px;
+    }
+
+    .divfooter{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        
+    }
+    .navfooter1{
+        justify-content:space-around;
+        display: flex;
+        width: 600px
+        
+    }
+    .navfooter2{
+        width: 500px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .btnnav1{
+        display: flex;
+        padding: 15px;
+        text-decoration: none;
+        list-style: none;
+        justify-content:space-around;
+        flex-wrap: wrap;
+        margin-right: 10px;
+        }
+        .btnnav1 a{
+            margin-right: 15px
+        }
+        .btnnav1 a:hover{
+            text-decoration:underline;
+        }
+
+        .btnnav2{
+            display: flex;
+            list-style: none;
+           flex-wrap: wrap;
+            padding: 15px;
+            }
+        
+            .btnnav2 a{
+                margin-right: 20px
+            }
+            .btnnav2 a:hover{
+                text-decoration:underline;}
+.p{
+        padding: 15px 30px;
+        font-size: 15px;
+        color: #70757a;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+    }
+    
